@@ -10,3 +10,12 @@
     columns: 3;
   }
 }
+
+.irrelevant {
+  text-decoration: line-through;
+  color: red;
+}
+
+.real {
+  text-decoration: none;
+}
