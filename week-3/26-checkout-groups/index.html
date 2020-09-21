@@ -38,6 +38,53 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
+            <fieldset name="Billing Adress">
+              <legend>Billing Adress</legend>
+              <label for="addr-1" name="Billing Adress"
+                >Adress Line 1
+                <input type="text" name="Billing Adress" id="addr-1" />
+              </label>
+              <br />
+              <label name="Billing Adress" for="addr-2"
+                >Adress Line 2
+                <input name="Billing Adress" type="text" id="addr-2" />
+              </label>
+              <br />
+              <label name="Billing Adress" for="postcode"
+                >Postcode
+                <input name="Billing Adress" type="text" id="postcode" />
+              </label>
+              <br />
+              <label name="Billing Adress" for="city"
+                >City
+                <input name="Billing Adress" type="text" id="city" />
+              </label>
+
+              <br />
+            </fieldset>
+
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <label for="addr-1" name="Delivery Adress"
+                >Adress Line 1
+                <input type="text" name="Delivery Adress" id="addr-1" />
+              </label>
+              <br />
+              <label name="Delivery Adress" for="addr-2"
+                >Adress Line 2
+                <input name="Delivery Adress" type="text" id="addr-2" />
+              </label>
+              <br />
+              <label name="Delivery Adress" for="postcode"
+                >Postcode
+                <input name="Delivery Adress" type="text" id="postcode" />
+              </label>
+              <br />
+              <label name="Delivery Adress" for="city"
+                >City
+                <input name="Delivery Adress" type="text" id="city" />
+              </label>
+            </fieldset>
 
             <button type="submit">Complete Purchase</button>
           </form>
